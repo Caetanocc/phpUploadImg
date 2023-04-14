@@ -1,0 +1,55 @@
+
+body{
+	font-family:verdana;
+}
+
+.form-container{
+	margin-left:5px;
+	margin-top:10px;
+}
+
+.input-files input[type=file]{
+	display:block;
+	border:1px solid #eeeeee;
+	position:relative;
+	margin-bottom:5px;
+	width:250px;
+}
+.add-more-cont{
+margin:10px 0px 10px 0px;
+}
+
+#add_more{
+	font-size:13px;
+	color:blue;
+}
+
+#add_more:hover{
+	cursor:pointer;
+}
+
+.form-container input[type=submit]{
+	background:#0072bc;
+	height:25px;
+	border:1px solid #0767a6;
+	color:#ffffff;
+}
+
+.error-msg{
+	background-color:#f2dede;
+	border:1px solid #ebccd1;
+	font-size:14px;
+	color:#a94442;
+	width:350px;
+	padding:4px;
+	margin-bottom:5px;
+}
+.success-msg{
+	background-color:#dff0d8;
+	border:1px solid #d6e9c6;
+	font-size:14px;
+	color:#3c763d;
+	width:350px;
+	padding:4px;
+	margin-bottom:5px;
+}
